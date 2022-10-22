@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5E35D228FF4DA400B3D2CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB5E35D428FF4DA400B3D2CA /* Localizable.strings */; };
+		CB5E35D729047CF500B3D2CA /* libratone in Frameworks */ = {isa = PBXBuildFile; productRef = CB5E35D629047CF500B3D2CA /* libratone */; };
+		CB7C549B28F199280080672E /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C549A28F199280080672E /* DeviceView.swift */; };
+		CB7C549D28F1A04D0080672E /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C549C28F1A04D0080672E /* Devices.swift */; };
+		CB92780428F2F51400FEE879 /* LibratoneExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92780328F2F51400FEE879 /* LibratoneExtensions.swift */; };
+		CBF3649028EF7FD3003C6EC8 /* LibretoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3648F28EF7FD3003C6EC8 /* LibretoneApp.swift */; };
+		CBF3649228EF7FD3003C6EC8 /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF3649128EF7FD3003C6EC8 /* DeviceListView.swift */; };
+		CBF3649428EF7FD8003C6EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF3649328EF7FD8003C6EC8 /* Assets.xcassets */; };
+		CBF3649728EF7FD8003C6EC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF3649628EF7FD8003C6EC8 /* Preview Assets.xcassets */; };
+		CBF364A128EF7FD9003C6EC8 /* LibretoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF364A028EF7FD9003C6EC8 /* LibretoneTests.swift */; };
+		CBF364AB28EF7FD9003C6EC8 /* LibretoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF364AA28EF7FD9003C6EC8 /* LibretoneUITests.swift */; };
+		CBF364AD28EF7FD9003C6EC8 /* LibretoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF364AC28EF7FD9003C6EC8 /* LibretoneUITestsLaunchTests.swift */; };
+		CBF364BB28EF8321003C6EC8 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF364BA28EF8321003C6EC8 /* Device.swift */; };
+		CBF364BD28EF83B8003C6EC8 /* DeviceItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF364BC28EF83B8003C6EC8 /* DeviceItemView.swift */; };
+		CBF55E8228FB4D6600EA819F /* PreferenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF55E8128FB4D6600EA819F /* PreferenceStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF3649D28EF7FD9003C6EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF3648428EF7FD3003C6EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF3648B28EF7FD3003C6EC8;
+			remoteInfo = Libretone;
+		};
+		CBF364A728EF7FD9003C6EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBF3648428EF7FD3003C6EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBF3648B28EF7FD3003C6EC8;
+			remoteInfo = Libretone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB5E35D328FF4DA400B3D2CA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB5E35D82904803000B3D2CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB7C549A28F199280080672E /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		CB7C549C28F1A04D0080672E /* Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		CB92780328F2F51400FEE879 /* LibratoneExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibratoneExtensions.swift; sourceTree = "<group>"; };
+		CBF3648C28EF7FD3003C6EC8 /* Libretone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Libretone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF3648F28EF7FD3003C6EC8 /* LibretoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibretoneApp.swift; sourceTree = "<group>"; };
+		CBF3649128EF7FD3003C6EC8 /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		CBF3649328EF7FD8003C6EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF3649628EF7FD8003C6EC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBF3649C28EF7FD9003C6EC8 /* LibretoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibretoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF364A028EF7FD9003C6EC8 /* LibretoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibretoneTests.swift; sourceTree = "<group>"; };
+		CBF364A628EF7FD9003C6EC8 /* LibretoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibretoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF364AA28EF7FD9003C6EC8 /* LibretoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibretoneUITests.swift; sourceTree = "<group>"; };
+		CBF364AC28EF7FD9003C6EC8 /* LibretoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibretoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBF364BA28EF8321003C6EC8 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		CBF364BC28EF83B8003C6EC8 /* DeviceItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceItemView.swift; sourceTree = "<group>"; };
+		CBF55E8128FB4D6600EA819F /* PreferenceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBF3648928EF7FD3003C6EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5E35D729047CF500B3D2CA /* libratone in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF3649928EF7FD9003C6EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF364A328EF7FD9003C6EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB7C549E28F1A1380080672E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		CB7C54A228F2E5F90080672E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBF3648328EF7FD3003C6EC8 = {
+			isa = PBXGroup;
+			children = (
+				CB7C549E28F1A1380080672E /* Packages */,
+				CBF3648E28EF7FD3003C6EC8 /* Libretone */,
+				CBF3649F28EF7FD9003C6EC8 /* LibretoneTests */,
+				CBF364A928EF7FD9003C6EC8 /* LibretoneUITests */,
+				CBF3648D28EF7FD3003C6EC8 /* Products */,
+				CB7C54A228F2E5F90080672E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBF3648D28EF7FD3003C6EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3648C28EF7FD3003C6EC8 /* Libretone.app */,
+				CBF3649C28EF7FD9003C6EC8 /* LibretoneTests.xctest */,
+				CBF364A628EF7FD9003C6EC8 /* LibretoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBF3648E28EF7FD3003C6EC8 /* Libretone */ = {
+			isa = PBXGroup;
+			children = (
+				CBF364B928EF82E5003C6EC8 /* Models */,
+				CBF3648F28EF7FD3003C6EC8 /* LibretoneApp.swift */,
+				CBF3649128EF7FD3003C6EC8 /* DeviceListView.swift */,
+				CBF3649328EF7FD8003C6EC8 /* Assets.xcassets */,
+				CBF3649528EF7FD8003C6EC8 /* Preview Content */,
+				CBF364BC28EF83B8003C6EC8 /* DeviceItemView.swift */,
+				CB7C549A28F199280080672E /* DeviceView.swift */,
+				CB7C549C28F1A04D0080672E /* Devices.swift */,
+				CB92780328F2F51400FEE879 /* LibratoneExtensions.swift */,
+				CBF55E8128FB4D6600EA819F /* PreferenceStore.swift */,
+				CB5E35D428FF4DA400B3D2CA /* Localizable.strings */,
+			);
+			path = Libretone;
+			sourceTree = "<group>";
+		};
+		CBF3649528EF7FD8003C6EC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBF3649628EF7FD8003C6EC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBF3649F28EF7FD9003C6EC8 /* LibretoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF364A028EF7FD9003C6EC8 /* LibretoneTests.swift */,
+			);
+			path = LibretoneTests;
+			sourceTree = "<group>";
+		};
+		CBF364A928EF7FD9003C6EC8 /* LibretoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBF364AA28EF7FD9003C6EC8 /* LibretoneUITests.swift */,
+				CBF364AC28EF7FD9003C6EC8 /* LibretoneUITestsLaunchTests.swift */,
+			);
+			path = LibretoneUITests;
+			sourceTree = "<group>";
+		};
+		CBF364B928EF82E5003C6EC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBF364BA28EF8321003C6EC8 /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBF3648B28EF7FD3003C6EC8 /* Libretone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF364B028EF7FD9003C6EC8 /* Build configuration list for PBXNativeTarget "Libretone" */;
+			buildPhases = (
+				CBF3648828EF7FD3003C6EC8 /* Sources */,
+				CBF3648928EF7FD3003C6EC8 /* Frameworks */,
+				CBF3648A28EF7FD3003C6EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Libretone;
+			packageProductDependencies = (
+				CB5E35D629047CF500B3D2CA /* libratone */,
+			);
+			productName = Libretone;
+			productReference = CBF3648C28EF7FD3003C6EC8 /* Libretone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBF3649B28EF7FD9003C6EC8 /* LibretoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF364B328EF7FD9003C6EC8 /* Build configuration list for PBXNativeTarget "LibretoneTests" */;
+			buildPhases = (
+				CBF3649828EF7FD9003C6EC8 /* Sources */,
+				CBF3649928EF7FD9003C6EC8 /* Frameworks */,
+				CBF3649A28EF7FD9003C6EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF3649E28EF7FD9003C6EC8 /* PBXTargetDependency */,
+			);
+			name = LibretoneTests;
+			productName = LibretoneTests;
+			productReference = CBF3649C28EF7FD9003C6EC8 /* LibretoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBF364A528EF7FD9003C6EC8 /* LibretoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF364B628EF7FD9003C6EC8 /* Build configuration list for PBXNativeTarget "LibretoneUITests" */;
+			buildPhases = (
+				CBF364A228EF7FD9003C6EC8 /* Sources */,
+				CBF364A328EF7FD9003C6EC8 /* Frameworks */,
+				CBF364A428EF7FD9003C6EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF364A828EF7FD9003C6EC8 /* PBXTargetDependency */,
+			);
+			name = LibretoneUITests;
+			productName = LibretoneUITests;
+			productReference = CBF364A628EF7FD9003C6EC8 /* LibretoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBF3648428EF7FD3003C6EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CBF3648B28EF7FD3003C6EC8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CBF3649B28EF7FD9003C6EC8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CBF3648B28EF7FD3003C6EC8;
+					};
+					CBF364A528EF7FD9003C6EC8 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CBF3648B28EF7FD3003C6EC8;
+					};
+				};
+			};
+			buildConfigurationList = CBF3648728EF7FD3003C6EC8 /* Build configuration list for PBXProject "Libretone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = CBF3648328EF7FD3003C6EC8;
+			packageReferences = (
+				CB5E35D529047CF500B3D2CA /* XCRemoteSwiftPackageReference "libratone-swift" */,
+			);
+			productRefGroup = CBF3648D28EF7FD3003C6EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBF3648B28EF7FD3003C6EC8 /* Libretone */,
+				CBF3649B28EF7FD9003C6EC8 /* LibretoneTests */,
+				CBF364A528EF7FD9003C6EC8 /* LibretoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBF3648A28EF7FD3003C6EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF3649728EF7FD8003C6EC8 /* Preview Assets.xcassets in Resources */,
+				CB5E35D228FF4DA400B3D2CA /* Localizable.strings in Resources */,
+				CBF3649428EF7FD8003C6EC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF3649A28EF7FD9003C6EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF364A428EF7FD9003C6EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBF3648828EF7FD3003C6EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF364BB28EF8321003C6EC8 /* Device.swift in Sources */,
+				CBF364BD28EF83B8003C6EC8 /* DeviceItemView.swift in Sources */,
+				CB7C549B28F199280080672E /* DeviceView.swift in Sources */,
+				CB7C549D28F1A04D0080672E /* Devices.swift in Sources */,
+				CBF55E8228FB4D6600EA819F /* PreferenceStore.swift in Sources */,
+				CB92780428F2F51400FEE879 /* LibratoneExtensions.swift in Sources */,
+				CBF3649228EF7FD3003C6EC8 /* DeviceListView.swift in Sources */,
+				CBF3649028EF7FD3003C6EC8 /* LibretoneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF3649828EF7FD9003C6EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF364A128EF7FD9003C6EC8 /* LibretoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF364A228EF7FD9003C6EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF364AB28EF7FD9003C6EC8 /* LibretoneUITests.swift in Sources */,
+				CBF364AD28EF7FD9003C6EC8 /* LibretoneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBF3649E28EF7FD9003C6EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF3648B28EF7FD3003C6EC8 /* Libretone */;
+			targetProxy = CBF3649D28EF7FD9003C6EC8 /* PBXContainerItemProxy */;
+		};
+		CBF364A828EF7FD9003C6EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBF3648B28EF7FD3003C6EC8 /* Libretone */;
+			targetProxy = CBF364A728EF7FD9003C6EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB5E35D428FF4DA400B3D2CA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5E35D328FF4DA400B3D2CA /* fr */,
+				CB5E35D82904803000B3D2CA /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBF364AE28EF7FD9003C6EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBF364AF28EF7FD9003C6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBF364B128EF7FD9003C6EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Libretone/Preview Content\"";
+				DEVELOPMENT_TEAM = J2CHX8V8XG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bustany.Libretone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBF364B228EF7FD9003C6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Libretone/Preview Content\"";
+				DEVELOPMENT_TEAM = J2CHX8V8XG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bustany.Libretone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBF364B428EF7FD9003C6EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2CHX8V8XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bustany.LibretoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Libretone.app/Libretone";
+			};
+			name = Debug;
+		};
+		CBF364B528EF7FD9003C6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2CHX8V8XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bustany.LibretoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Libretone.app/Libretone";
+			};
+			name = Release;
+		};
+		CBF364B728EF7FD9003C6EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2CHX8V8XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bustany.LibretoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Libretone;
+			};
+			name = Debug;
+		};
+		CBF364B828EF7FD9003C6EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2CHX8V8XG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.bustany.LibretoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Libretone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBF3648728EF7FD3003C6EC8 /* Build configuration list for PBXProject "Libretone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF364AE28EF7FD9003C6EC8 /* Debug */,
+				CBF364AF28EF7FD9003C6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF364B028EF7FD9003C6EC8 /* Build configuration list for PBXNativeTarget "Libretone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF364B128EF7FD9003C6EC8 /* Debug */,
+				CBF364B228EF7FD9003C6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF364B328EF7FD9003C6EC8 /* Build configuration list for PBXNativeTarget "LibretoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF364B428EF7FD9003C6EC8 /* Debug */,
+				CBF364B528EF7FD9003C6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF364B628EF7FD9003C6EC8 /* Build configuration list for PBXNativeTarget "LibretoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBF364B728EF7FD9003C6EC8 /* Debug */,
+				CBF364B828EF7FD9003C6EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB5E35D529047CF500B3D2CA /* XCRemoteSwiftPackageReference "libratone-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/abustany/libratone-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB5E35D629047CF500B3D2CA /* libratone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB5E35D529047CF500B3D2CA /* XCRemoteSwiftPackageReference "libratone-swift" */;
+			productName = libratone;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CBF3648428EF7FD3003C6EC8 /* Project object */;
+}

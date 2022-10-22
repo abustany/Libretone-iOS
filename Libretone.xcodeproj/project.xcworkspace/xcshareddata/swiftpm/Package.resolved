@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "libratone",
+        "repositoryURL": "https://github.com/abustany/libratone-swift",
+        "state": {
+          "branch": "master",
+          "revision": "affcd34b82e518cc0730d87cb66c5f438edba631",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "6fe203dc33195667ce1759bf0182975e4653ba1c",
+          "version": "1.4.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

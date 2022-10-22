@@ -1,0 +1,10 @@
+"device-list-title" = "Devices";
+"device-list-looking" = "Looking for devices";
+
+"device-view-section-favorites" = "Favorites";
+"device-view-favorite-unnamed" = "Unnamed favorite";
+"device-view-button-previous" = "Previous";
+"device-view-button-playpause" = "Play/Pause";
+"device-view-button-forward" = "Next";
+"device-view-volume-label" = "Volume";
+"device-view-favorite-label" = "Favorite";
